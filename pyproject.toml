@@ -1,7 +1,7 @@
 [project]
-name = "tmp-cutter-new"
+name = "cutter.base"
 version = "0.0.3"
-description = "A demo"
+description = "A basic cookiecutter"
 readme = "README.md"
 authors = [{name = "Bryan Hann"}]
 requires-python = ">=3.8"
@@ -16,13 +16,10 @@ build-backend = "setuptools.build_meta"
 
 
 [project.urls]
-Homepage = "https://github.com/bryanhann/tmp-cutter-new"
-Changelog = "https://github.com/bryanhann/tmp-cutter-new/releases"
-Issues = "https://github.com/bryanhann/tmp-cutter-new/issues"
-CI = "https://github.com/bryanhann/tmp-cutter-new/actions"
-
-[project.scripts]
-tmp-cutter-new = "tmp_cutter_new.cli:cli"
+Homepage = "https://github.com/bryanhann/cutter.base"
+Changelog = "https://github.com/bryanhann/cutter.base/releases"
+Issues = "https://github.com/bryanhann/cutter.base/issues"
+CI = "https://github.com/bryanhann/cutter.base/actions"
 
 [project.optional-dependencies]
 test = ["pytest==8.3.3"]
