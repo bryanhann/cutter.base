@@ -1,0 +1,10 @@
+{
+  "app_basename": "",
+  "visability": [ "--public", "--private" ],
+  "app_name": "{{ 'tmp ' + cookiecutter['app_basename'] }}",
+  "description": "A demo",
+  "hyphenated": "{{ '-'.join(cookiecutter['app_name'].lower().split()).replace('_', '-') }}",
+  "underscored": "{{ cookiecutter.hyphenated.replace('-', '_') }}",
+  "github_username": "bryanhann",
+  "author_name": "Bryan Hann"
+}

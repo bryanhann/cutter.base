@@ -1,0 +1,12 @@
+*$py.class
+*.egg-info
+*.py[cod]
+.DS_Store
+.eggs
+.pytest_cache
+.venv
+__pycache__/
+auth.json
+build
+dist
+venv
