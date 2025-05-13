@@ -5,6 +5,7 @@
 .eggs
 .pytest_cache
 .venv
+.hide
 __pycache__/
 auth.json
 build
